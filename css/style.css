@@ -1,0 +1,52 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrapper .cell {
+    background-color: aliceblue;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    float: left;
+    font-size: 100px;
+    height: 148px;
+    text-align: center;
+    width: 148px;
+}
+
+.restart {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.restart a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: brown;
+    color: #fff;
+}
+
+.victory {
+    text-align: center;
+    color: #fff;
+    background-color: brown;
+    padding: 30px 0;
+    font-size: 35px;
+    position: absolute;
+    width: 100%;
+    top: 39%;
+    display: none;
+}
