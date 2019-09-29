@@ -204,7 +204,7 @@ let MonteCarloTreeSearch = {
         let opponent = 3 - playerNo;
         let tree = new Tree();
         let rootNode = tree.root;
-        let loopTime = 100;
+        let loopTime = 400;
         rootNode.state.board = new Board(board);
         rootNode.state.playerNo = opponent;
 
